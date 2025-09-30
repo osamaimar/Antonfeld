@@ -1,0 +1,554 @@
+/* Medical Testimonials Section Custom Styles */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Testimonials Section */
+.elementor-section.medical-testimonials-section {
+    background: #F9FAFB !important;
+    padding: 80px 20px !important;
+}
+
+/* Testimonials Container */
+.medical-testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Header */
+.medical-testimonials-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.medical-testimonials-title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    color: #111827 !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+}
+
+.medical-testimonials-title .highlight-sky {
+    color: #0EA5E9 !important;
+}
+
+.medical-testimonials-title .highlight-teal {
+    color: #14B8A6 !important;
+}
+
+.medical-testimonials-description {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #6B7280 !important;
+    text-align: center !important;
+    max-width: 768px;
+    margin: 0 auto !important;
+}
+
+.medical-testimonials-description .highlight-sky {
+    color: #0EA5E9 !important;
+    font-weight: 600 !important;
+}
+
+.medical-testimonials-description .highlight-teal {
+    color: #14B8A6 !important;
+    font-weight: 600 !important;
+}
+
+/* Testimonials Grid */
+.medical-testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .medical-testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .medical-testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Testimonial Card */
+.medical-testimonial-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 25px -5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E7EB;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.medical-testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Testimonial Header */
+.medical-testimonial-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.medical-testimonial-quote {
+    width: 32px;
+    height: 32px;
+    color: #7DD3FC;
+}
+
+.medical-testimonial-rating {
+    display: flex;
+    gap: 4px;
+}
+
+.medical-testimonial-star {
+    width: 20px;
+    height: 20px;
+    color: #FCD34D;
+    fill: currentColor;
+}
+
+/* Testimonial Content */
+.medical-testimonial-content {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #374151 !important;
+    margin-bottom: 24px !important;
+    font-style: italic !important;
+    flex-grow: 1;
+}
+
+/* Testimonial Author */
+.medical-testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: auto;
+}
+
+.medical-testimonial-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.medical-testimonial-info {
+    flex-grow: 1;
+}
+
+.medical-testimonial-name {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    margin-bottom: 4px !important;
+}
+
+.medical-testimonial-details {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6B7280 !important;
+}
+
+/* CTA Section */
+.medical-testimonials-cta {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.medical-testimonials-cta-card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 25px -5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E5E7EB;
+    max-width: 896px;
+    margin: 0 auto;
+}
+
+.medical-testimonials-cta-title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    color: #111827 !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+}
+
+.medical-testimonials-cta-title .highlight-sky {
+    color: #0EA5E9 !important;
+}
+
+.medical-testimonials-cta-title .highlight-teal {
+    color: #14B8A6 !important;
+}
+
+.medical-testimonials-cta-description {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #6B7280 !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+}
+
+.medical-testimonials-cta-description .highlight-sky {
+    color: #0EA5E9 !important;
+    font-weight: 600 !important;
+}
+
+.medical-testimonials-cta-description .highlight-teal {
+    color: #14B8A6 !important;
+    font-weight: 600 !important;
+}
+
+/* CTA Buttons */
+.medical-testimonials-cta-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 640px) {
+    .medical-testimonials-cta-buttons {
+        flex-direction: row;
+    }
+}
+
+.medical-testimonials-cta-button-primary {
+    background: #0EA5E9 !important;
+    color: #FFFFFF !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+.medical-testimonials-cta-button-primary:hover {
+    background: #0284C7 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3) !important;
+}
+
+.medical-testimonials-cta-button-secondary {
+    background: transparent !important;
+    color: #0EA5E9 !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    border: 2px solid #0EA5E9 !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+.medical-testimonials-cta-button-secondary:hover {
+    background: #EFF6FF !important;
+    color: #0284C7 !important;
+    border-color: #0284C7 !important;
+    text-decoration: none !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2) !important;
+}
+
+/* Elementor Widget Specific Styles */
+.elementor-widget-testimonial .elementor-testimonial-wrapper {
+    background: #FFFFFF !important;
+    border-radius: 16px !important;
+    padding: 24px !important;
+    box-shadow: 0 4px 25px -5px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #E5E7EB !important;
+    transition: all 0.3s ease !important;
+    height: 100% !important;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-wrapper:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-content {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #374151 !important;
+    font-style: italic !important;
+    margin-bottom: 24px !important;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-name {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    margin-bottom: 4px !important;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-job {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #6B7280 !important;
+}
+
+.elementor-widget-testimonial .elementor-testimonial-image {
+    width: 48px !important;
+    height: 48px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+}
+
+.elementor-widget-testimonial .elementor-star-rating {
+    color: #FCD34D !important;
+}
+
+.elementor-widget-testimonial .elementor-star-rating__star {
+    color: #FCD34D !important;
+    fill: currentColor !important;
+}
+
+/* Container Widget Styles */
+.elementor-widget-container.medical-testimonials-cta-container {
+    background: #FFFFFF !important;
+    border-radius: 16px !important;
+    padding: 32px !important;
+    box-shadow: 0 4px 25px -5px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid #E5E7EB !important;
+    max-width: 896px !important;
+    margin: 48px auto 0 !important;
+}
+
+/* Button Widget Styles */
+.elementor-widget-button .elementor-button.medical-cta-primary {
+    background: #0EA5E9 !important;
+    color: #FFFFFF !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    border: none !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    transition: all 0.2s ease !important;
+}
+
+.elementor-widget-button .elementor-button.medical-cta-primary:hover {
+    background: #0284C7 !important;
+    color: #FFFFFF !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3) !important;
+}
+
+.elementor-widget-button .elementor-button.medical-cta-secondary {
+    background: transparent !important;
+    color: #0EA5E9 !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    border: 2px solid #0EA5E9 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    transition: all 0.2s ease !important;
+}
+
+.elementor-widget-button .elementor-button.medical-cta-secondary:hover {
+    background: #EFF6FF !important;
+    color: #0284C7 !important;
+    border-color: #0284C7 !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2) !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .medical-testimonials-title {
+        font-size: 28px !important;
+    }
+    
+    .medical-testimonials-description {
+        font-size: 18px !important;
+    }
+    
+    .medical-testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .medical-testimonial-card {
+        padding: 20px;
+    }
+    
+    .medical-testimonials-cta-card {
+        padding: 24px;
+        margin: 0 16px;
+    }
+    
+    .medical-testimonials-cta-title {
+        font-size: 20px !important;
+    }
+    
+    .medical-testimonials-cta-description {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .medical-testimonials-title {
+        font-size: 24px !important;
+    }
+    
+    .medical-testimonials-description {
+        font-size: 16px !important;
+    }
+    
+    .medical-testimonial-card {
+        padding: 16px;
+    }
+    
+    .medical-testimonials-cta-card {
+        padding: 20px;
+        margin: 0 8px;
+    }
+    
+    .medical-testimonials-cta-title {
+        font-size: 18px !important;
+    }
+    
+    .medical-testimonials-cta-description {
+        font-size: 13px !important;
+    }
+    
+    .medical-testimonials-cta-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .medical-testimonials-cta-button-primary,
+    .medical-testimonials-cta-button-secondary {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .medical-testimonial-card {
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        border: 1px solid #000000 !important;
+    }
+    
+    .medical-testimonials-cta-card {
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        border: 1px solid #000000 !important;
+    }
+    
+    .medical-testimonials-cta-button-primary,
+    .medical-testimonials-cta-button-secondary {
+        background: #0EA5E9 !important;
+        color: #ffffff !important;
+        border: 1px solid #0EA5E9 !important;
+    }
+}
+
+/* Animation Classes */
+.medical-testimonial-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover Effects */
+.medical-testimonial-card:hover .medical-testimonial-quote {
+    color: #0EA5E9;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.medical-testimonial-card:hover .medical-testimonial-avatar {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+/* Focus States for Accessibility */
+.medical-testimonials-cta-button-primary:focus,
+.medical-testimonials-cta-button-secondary:focus {
+    outline: 2px solid #0EA5E9 !important;
+    outline-offset: 2px !important;
+}
+
+/* Loading States */
+.medical-testimonial-card.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.medical-testimonial-card.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #0EA5E9;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

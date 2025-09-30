@@ -1,0 +1,33 @@
+{
+  "name": "Dunmedic Medical and Healthcare Template Kit",
+  "slug": "dunmedic-medical-kit",
+  "version": "1.0.0",
+  "author": "Dunmedic",
+  "author_url": "",
+  "description": "A modern, responsive medical and healthcare template kit designed for Elementor with custom widgets for medical services, doctor profiles, and appointment booking.",
+  "license": "GPL",
+  "license_url": "https://www.gnu.org/licenses/gpl-3.0.html",
+  "thumbnail": "",
+  "demo_url": "",
+  "tags": ["medical", "healthcare", "hospital", "doctor", "clinic"],
+  "categories": ["Health & Medical"],
+  "requirements": {
+    "elementor_version": "3.0.0",
+    "wordpress_version": "5.0",
+    "php_version": "7.4"
+  },
+  "templates": [
+    {
+      "title": "Dunmedic Medical Homepage",
+      "type": "page",
+      "subtype": "",
+      "tags": ["homepage", "medical", "healthcare"],
+      "thumbnail": "",
+      "url": "",
+      "source": "templates/homepage.json"
+    }
+  ],
+  "global_styles": [],
+  "custom_css": "",
+  "custom_js": ""
+}

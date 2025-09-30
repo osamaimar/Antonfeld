@@ -1,0 +1,391 @@
+/*
+Theme Name: Dunmedic Medical and Healthcare Template
+Description: A modern medical and healthcare template for Elementor
+Version: 1.0.0
+Author: Dunmedic
+*/
+
+/* Import Dunmedic Styles */
+@import url('assets/css/dunmedic-main.css');
+@import url('assets/css/dunmedic-components.css');
+@import url('assets/css/dunmedic-animations.css');
+
+/* Elementor Compatibility Styles */
+.elementor-widget-container {
+    box-sizing: border-box;
+}
+
+/* Dunmedic Custom Elementor Widgets */
+.dunmedic-services-grid {
+    display: grid;
+    gap: var(--dunmedic-spacing-lg);
+    margin-top: var(--dunmedic-spacing-xl);
+}
+
+.dunmedic-services-grid[data-columns="2"] {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.dunmedic-services-grid[data-columns="3"] {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.dunmedic-services-grid[data-columns="4"] {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dunmedic-service-item {
+    background: #ffffff;
+    border-radius: var(--dunmedic-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--dunmedic-shadow-light);
+    transition: all var(--dunmedic-transition-normal);
+    border: 1px solid var(--dunmedic-border);
+    text-align: center;
+    padding: var(--dunmedic-spacing-xl);
+}
+
+.dunmedic-service-item:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--dunmedic-shadow-heavy);
+}
+
+.dunmedic-service-item .service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto var(--dunmedic-spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+}
+
+.dunmedic-service-item .service-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-sm);
+    color: var(--dunmedic-text-primary);
+}
+
+.dunmedic-service-item .service-description {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-text-secondary);
+    line-height: 1.6;
+}
+
+/* Doctor Profile Cards */
+.dunmedic-doctor-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: var(--dunmedic-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--dunmedic-shadow-light);
+    transition: all var(--dunmedic-transition-normal);
+    text-align: center;
+    padding: var(--dunmedic-spacing-xl);
+}
+
+.dunmedic-doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--dunmedic-shadow-medium);
+}
+
+.dunmedic-doctor-card .doctor-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto var(--dunmedic-spacing-lg);
+    overflow: hidden;
+    border: 4px solid var(--dunmedic-primary);
+}
+
+.dunmedic-doctor-card .doctor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dunmedic-doctor-card .doctor-name {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-xs);
+    color: var(--dunmedic-text-primary);
+}
+
+.dunmedic-doctor-card .doctor-specialty {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-primary);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Appointment Form Styles */
+.dunmedic-appointment-form {
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: var(--dunmedic-radius-lg);
+    padding: var(--dunmedic-spacing-xl);
+    color: white;
+}
+
+.dunmedic-appointment-form .form-title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-lg);
+    text-align: center;
+}
+
+.dunmedic-appointment-form .form-field {
+    margin-bottom: var(--dunmedic-spacing-md);
+}
+
+.dunmedic-appointment-form .form-field label {
+    display: block;
+    margin-bottom: var(--dunmedic-spacing-xs);
+    font-weight: 500;
+}
+
+.dunmedic-appointment-form .form-field input,
+.dunmedic-appointment-form .form-field select,
+.dunmedic-appointment-form .form-field textarea {
+    width: 100%;
+    padding: var(--dunmedic-spacing-sm);
+    border: none;
+    border-radius: var(--dunmedic-radius-md);
+    font-family: inherit;
+    font-size: var(--font-size-base);
+}
+
+.dunmedic-appointment-form .submit-btn {
+    background: white;
+    color: var(--dunmedic-primary);
+    padding: var(--dunmedic-spacing-sm) var(--dunmedic-spacing-xl);
+    border: none;
+    border-radius: var(--dunmedic-radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--dunmedic-transition-normal);
+    width: 100%;
+}
+
+.dunmedic-appointment-form .submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Statistics Section */
+.dunmedic-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--dunmedic-spacing-lg);
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    padding: var(--dunmedic-spacing-xl);
+    border-radius: var(--dunmedic-radius-lg);
+}
+
+.dunmedic-stat-item {
+    text-align: center;
+    color: white;
+}
+
+.dunmedic-stat-number {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: var(--dunmedic-spacing-xs);
+}
+
+.dunmedic-stat-label {
+    font-size: var(--font-size-sm);
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive Design for Elementor */
+@media (max-width: 1024px) {
+    .dunmedic-services-grid[data-columns="4"] {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .dunmedic-services-grid[data-columns="3"] {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .dunmedic-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .dunmedic-services-grid[data-columns="4"],
+    .dunmedic-services-grid[data-columns="3"],
+    .dunmedic-services-grid[data-columns="2"] {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--dunmedic-spacing-md);
+    }
+    
+    .dunmedic-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--dunmedic-spacing-md);
+    }
+}
+
+@media (max-width: 480px) {
+    .dunmedic-services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dunmedic-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Elementor Editor Styles */
+.elementor-editor-active .dunmedic-services-grid {
+    min-height: 200px;
+}
+
+.elementor-editor-active .dunmedic-appointment-form {
+    min-height: 300px;
+}
+
+/* Custom Elementor Button Styles */
+.elementor-button.dunmedic-btn-primary {
+    background: var(--dunmedic-primary) !important;
+    border-radius: var(--dunmedic-radius-md) !important;
+    font-weight: 600 !important;
+    transition: all var(--dunmedic-transition-normal) !important;
+}
+
+.elementor-button.dunmedic-btn-primary:hover {
+    background: var(--dunmedic-primary-hover) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3) !important;
+}
+
+.elementor-button.dunmedic-btn-outline {
+    background: transparent !important;
+    color: var(--dunmedic-text-primary) !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    border-radius: var(--dunmedic-radius-md) !important;
+}
+
+.elementor-button.dunmedic-btn-outline:hover {
+    background: var(--dunmedic-text-primary) !important;
+    color: white !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Custom Elementor Heading Styles */
+.elementor-heading-title.dunmedic-gradient-text {
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Medical Icon Styles */
+.dunmedic-medical-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 auto var(--dunmedic-spacing-md);
+}
+
+/* Elementor Section Enhancements */
+.elementor-section.dunmedic-hero {
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+.elementor-section.dunmedic-services {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+/* Animation Classes for Elementor */
+.dunmedic-fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.dunmedic-fade-up.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dunmedic-scale-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.4s ease-out;
+}
+
+.dunmedic-scale-in.animated {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Elementor Widget Spacing */
+.elementor-widget:not(:last-child) {
+    margin-bottom: var(--dunmedic-spacing-lg);
+}
+
+/* Custom Elementor Counter Styles */
+.elementor-counter .elementor-counter-number-wrapper {
+    color: var(--dunmedic-primary);
+    font-weight: 800;
+}
+
+.elementor-counter .elementor-counter-title {
+    color: var(--dunmedic-text-secondary);
+    font-weight: 500;
+}
+
+/* Custom Elementor Icon List Styles */
+.elementor-icon-list-item {
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.elementor-icon-list-icon {
+    color: var(--dunmedic-primary);
+}
+
+.elementor-icon-list-text {
+    color: var(--dunmedic-text-primary);
+    font-weight: 500;
+}
+
+/* Medical Emergency Styles */
+.dunmedic-emergency-contact {
+    background: linear-gradient(135deg, #dc2626, #ef4444);
+    color: white;
+    padding: var(--dunmedic-spacing-lg);
+    border-radius: var(--dunmedic-radius-lg);
+    text-align: center;
+}
+
+.dunmedic-emergency-contact .emergency-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.dunmedic-emergency-contact .emergency-number {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.dunmedic-emergency-contact .emergency-description {
+    font-size: var(--font-size-sm);
+    opacity: 0.9;
+}

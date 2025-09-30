@@ -1,0 +1,59 @@
+{
+  "kit_library": {
+    "version": "1.0.0",
+    "last_updated": "2025-01-27"
+  },
+  "templates": [
+    {
+      "template_id": "homepage",
+      "title": "Dunmedic Medical Homepage",
+      "type": "page",
+      "subtype": "",
+      "author": "Dunmedic",
+      "thumbnail": "",
+      "url": "",
+      "hasPageSettings": false,
+      "tags": ["homepage", "medical", "healthcare", "hospital", "doctor"],
+      "popularityIndex": 1,
+      "trendIndex": 1,
+      "accessLevel": 0,
+      "accessTier": 1
+    }
+  ],
+  "types": [
+    {
+      "type": "page",
+      "title": "Pages",
+      "doc_url": "",
+      "tags": ["page", "homepage", "medical"]
+    }
+  ],
+  "categories": [
+    {
+      "slug": "health-medical",
+      "title": "Health & Medical"
+    }
+  ],
+  "tags": [
+    {
+      "slug": "medical",
+      "title": "Medical"
+    },
+    {
+      "slug": "healthcare",
+      "title": "Healthcare"
+    },
+    {
+      "slug": "hospital",
+      "title": "Hospital"
+    },
+    {
+      "slug": "doctor",
+      "title": "Doctor"
+    },
+    {
+      "slug": "clinic",
+      "title": "Clinic"
+    }
+  ]
+}

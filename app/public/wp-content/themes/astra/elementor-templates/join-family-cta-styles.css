@@ -1,0 +1,354 @@
+/* Join Our Family CTA Section Custom Styles - Medical Website Exact Match */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Main Section Container - Matches medical website */
+.join-family-cta-section {
+    background: #F9FAFB !important;
+    padding: 80px 20px !important;
+    margin: 0 !important;
+    position: relative !important;
+}
+
+.join-family-cta-section .elementor-container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+/* Card Container - Exact match to medical website */
+.join-family-cta-card {
+    background: #FFFFFF !important;
+    border-radius: 16px !important;
+    padding: 32px !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    border: none !important;
+    max-width: 896px !important;
+    margin: 48px auto 0 !important;
+    text-align: center !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Card Hover Effect - Matches medical website */
+.join-family-cta-card:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 30px -5px rgba(0, 0, 0, 0.15) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Main Heading - Exact match to medical website */
+.join-family-cta-title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    color: #111827 !important;
+    margin-bottom: 16px !important;
+    text-align: center !important;
+}
+
+/* Colored spans in heading */
+.join-family-cta-title .cta-title-sky {
+    color: #0EA5E9 !important;
+    font-weight: 700 !important;
+}
+
+.join-family-cta-title .cta-title-teal {
+    color: #14B8A6 !important;
+    font-weight: 700 !important;
+}
+
+/* Description Text - Exact match to medical website */
+.join-family-cta-description {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #6B7280 !important;
+    text-align: center !important;
+    margin-bottom: 24px !important;
+}
+
+/* Colored spans in description */
+.join-family-cta-description .cta-desc-sky {
+    color: #0EA5E9 !important;
+    font-weight: 600 !important;
+}
+
+.join-family-cta-description .cta-desc-teal {
+    color: #14B8A6 !important;
+    font-weight: 600 !important;
+}
+
+/* Buttons Container - Matches medical website layout */
+.join-family-cta-buttons {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 16px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+}
+
+.join-family-cta-buttons .elementor-container {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 16px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+/* Button columns */
+.join-family-cta-button-primary-col,
+.join-family-cta-button-secondary-col {
+    flex: 1 !important;
+    max-width: 50% !important;
+    padding: 0 8px !important;
+}
+
+/* Primary Button - Exact match to medical website */
+.join-family-cta-button-primary {
+    background: #0EA5E9 !important;
+    color: #FFFFFF !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    border: none !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    transition: all 0.2s ease !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+.join-family-cta-button-primary:hover {
+    background: #0284C7 !important;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.join-family-cta-button-primary:focus {
+    outline: 2px solid #0EA5E9 !important;
+    outline-offset: 2px !important;
+}
+
+/* Secondary Button - Exact match to medical website */
+.join-family-cta-button-secondary {
+    background: transparent !important;
+    color: #0EA5E9 !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    border: 2px solid #0EA5E9 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    transition: all 0.2s ease !important;
+    width: 100% !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    text-align: center !important;
+}
+
+.join-family-cta-button-secondary:hover {
+    background: #EFF6FF !important;
+    color: #0284C7 !important;
+    border-color: #0284C7 !important;
+    text-decoration: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.join-family-cta-button-secondary:focus {
+    outline: 2px solid #0EA5E9 !important;
+    outline-offset: 2px !important;
+}
+
+/* Animation Classes */
+.join-family-cta-card {
+    animation: fadeInUp 0.6s ease-out !important;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design - Matches medical website breakpoints */
+@media (max-width: 768px) {
+    .join-family-cta-section {
+        padding: 60px 16px !important;
+    }
+    
+    .join-family-cta-card {
+        padding: 24px !important;
+        margin: 32px auto 0 !important;
+    }
+    
+    .join-family-cta-title {
+        font-size: 20px !important;
+    }
+    
+    .join-family-cta-description {
+        font-size: 14px !important;
+    }
+    
+    .join-family-cta-buttons {
+        flex-direction: column !important;
+    }
+    
+    .join-family-cta-buttons .elementor-container {
+        flex-direction: column !important;
+    }
+    
+    .join-family-cta-button-primary-col,
+    .join-family-cta-button-secondary-col {
+        max-width: 100% !important;
+        padding: 0 0 16px 0 !important;
+    }
+    
+    .join-family-cta-button-primary,
+    .join-family-cta-button-secondary {
+        width: 100% !important;
+        max-width: 280px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .join-family-cta-section {
+        padding: 40px 12px !important;
+    }
+    
+    .join-family-cta-card {
+        padding: 20px !important;
+        margin: 24px auto 0 !important;
+    }
+    
+    .join-family-cta-title {
+        font-size: 18px !important;
+    }
+    
+    .join-family-cta-description {
+        font-size: 13px !important;
+    }
+    
+    .join-family-cta-button-primary,
+    .join-family-cta-button-secondary {
+        padding: 10px 24px !important;
+        font-size: 14px !important;
+    }
+}
+
+/* Accessibility Improvements */
+.join-family-cta-button-primary:focus-visible,
+.join-family-cta-button-secondary:focus-visible {
+    outline: 2px solid #0EA5E9 !important;
+    outline-offset: 2px !important;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+    .join-family-cta-card {
+        border: 2px solid #000000 !important;
+    }
+    
+    .join-family-cta-title {
+        color: #000000 !important;
+    }
+    
+    .join-family-cta-description {
+        color: #000000 !important;
+    }
+    
+    .join-family-cta-button-primary {
+        background: #000000 !important;
+        color: #ffffff !important;
+        border: 2px solid #000000 !important;
+    }
+    
+    .join-family-cta-button-secondary {
+        background: #ffffff !important;
+        color: #000000 !important;
+        border: 2px solid #000000 !important;
+    }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+    .join-family-cta-card,
+    .join-family-cta-button-primary,
+    .join-family-cta-button-secondary {
+        animation: none !important;
+        transition: none !important;
+    }
+    
+    .join-family-cta-card:hover {
+        transform: none !important;
+    }
+    
+    .join-family-cta-button-primary:hover,
+    .join-family-cta-button-secondary:hover {
+        transform: none !important;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .join-family-cta-card {
+        background: #ffffff !important;
+        color: #000000 !important;
+        box-shadow: none !important;
+        border: 1px solid #000000 !important;
+    }
+    
+    .join-family-cta-button-primary,
+    .join-family-cta-button-secondary {
+        background: #0EA5E9 !important;
+        color: #ffffff !important;
+        border: 1px solid #0EA5E9 !important;
+    }
+}
+
+/* Ensure proper text alignment and spacing */
+.join-family-cta-card * {
+    text-align: center !important;
+}
+
+.join-family-cta-card .elementor-widget-container {
+    text-align: center !important;
+}
+
+/* Button container alignment */
+.join-family-cta-buttons .elementor-widget-button {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Ensure proper spacing between elements */
+.join-family-cta-title {
+    margin-bottom: 16px !important;
+}
+
+.join-family-cta-description {
+    margin-bottom: 24px !important;
+}
+
+.join-family-cta-buttons {
+    margin-top: 0 !important;
+}

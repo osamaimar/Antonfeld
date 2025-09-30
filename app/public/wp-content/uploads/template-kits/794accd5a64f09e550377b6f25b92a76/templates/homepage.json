@@ -1,0 +1,1411 @@
+{
+  "version": "0.4",
+  "title": "Dunmedic Medical Homepage",
+  "type": "page",
+  "author": "Dunmedic",
+  "thumbnail": "",
+  "url": "",
+  "content": [
+    {
+      "id": "hero-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f0f9ff",
+        "background_color_b": "#dbeafe",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "min_height": {
+          "unit": "vh",
+          "size": 100
+        },
+        "content_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "hero-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "hero-text-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "hero-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Better care for your <span style=\"background: linear-gradient(135deg, #2563eb, #10b981); -webkit-background-clip: text; -webkit-text-fill-color: transparent;\">health</span>",
+                    "size": "custom",
+                    "custom_size": {
+                      "unit": "px",
+                      "size": 48
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.2
+                    },
+                    "color": "#1e293b"
+                  }
+                },
+                {
+                  "id": "hero-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "The health and well-being of our patients and their health care team will always be our priority, so we follow the best practices for cleanliness.",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.6
+                    },
+                    "text_color": "#64748b",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "40",
+                      "left": "0"
+                    }
+                  }
+                },
+                {
+                  "id": "hero-buttons-container",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 20
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "hero-services-button",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "View our services",
+                        "button_type": "primary",
+                        "background_color": "#2563eb",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 8
+                        },
+                        "typography_font_weight": "600",
+                        "button_text_padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32"
+                        },
+                        "hover_color": "#ffffff",
+                        "button_background_hover_color": "#1d4ed8"
+                      }
+                    },
+                    {
+                      "id": "hero-emergency-button",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Emergency",
+                        "selected_icon": {
+                          "value": "fas fa-phone-alt",
+                          "library": "fa-solid"
+                        },
+                        "button_type": "outline",
+                        "text_color": "#1e293b",
+                        "border_color": "#e2e8f0",
+                        "border_radius": {
+                          "unit": "px",
+                          "size": 8
+                        },
+                        "typography_font_weight": "600",
+                        "button_text_padding": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "32",
+                          "bottom": "16",
+                          "left": "32"
+                        },
+                        "hover_color": "#ffffff",
+                        "button_background_hover_color": "#dc2626"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hero-visual-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "hero-doctor-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
+                    },
+                    "image_size": "custom",
+                    "image_custom_dimension": {
+                      "width": "400",
+                      "height": "600"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 20,
+                      "blur": 40,
+                      "spread": 0,
+                      "color": "rgba(37, 99, 235, 0.2)"
+                    },
+                    "hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f8fafc",
+        "background_color_b": "#e2e8f0",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "services-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "services-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "services-divider",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "style": "line_text",
+                    "text": "Our Services",
+                    "align": "center",
+                    "text_color": "#2563eb",
+                    "typography_font_weight": "600"
+                  }
+                },
+                {
+                  "id": "services-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Common Specialties",
+                    "size": "h2",
+                    "align": "center",
+                    "typography_font_weight": "700",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "60"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "services-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 30
+                }
+              },
+              "elements": [
+                {
+                  "id": "service-critical-care",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                    },
+                    "title_text": "Critical Care",
+                    "title_size": "h3",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-internal-medicine",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                    },
+                    "title_text": "Internal Medicine",
+                    "title_size": "h3",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-dental",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                    },
+                    "title_text": "Dental",
+                    "title_size": "h3",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "service-emergency",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/263337/pexels-photo-263337.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop"
+                    },
+                    "title_text": "Emergency",
+                    "title_size": "h3",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "about-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "about-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "about-visual-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "about-main-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=600&h=800&fit=crop"
+                    },
+                    "image_size": "custom",
+                    "image_custom_dimension": {
+                      "width": "500",
+                      "height": "600"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 20,
+                      "blur": 40,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.1)"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "about-text-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "about-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "A great system application for hospital center & health care",
+                    "size": "h2",
+                    "typography_font_weight": "700",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "30"
+                    }
+                  }
+                },
+                {
+                  "id": "about-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "We provide all aspects of medical practice for your whole family, including general check-ups or assisting you with specific injuries. Our experienced medical professionals are dedicated to providing comprehensive healthcare services.",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "#64748b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "40"
+                    }
+                  }
+                },
+                {
+                  "id": "about-operating-hours",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Operating Hours",
+                    "size": "h3",
+                    "typography_font_weight": "600",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "operating-hours-list",
+                  "elType": "widget",
+                  "widgetType": "icon-list",
+                  "settings": {
+                    "icon_list": [
+                      {
+                        "text": "Monday - Friday: 8:00 AM - 6:00 PM",
+                        "icon": {
+                          "value": "fas fa-clock",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Saturday: 9:00 AM - 5:00 PM",
+                        "icon": {
+                          "value": "fas fa-clock",
+                          "library": "fa-solid"
+                        }
+                      },
+                      {
+                        "text": "Sunday: Closed",
+                        "icon": {
+                          "value": "fas fa-times-circle",
+                          "library": "fa-solid"
+                        }
+                      }
+                    ],
+                    "view": "traditional",
+                    "icon_color": "#2563eb",
+                    "text_color": "#64748b"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appointment-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#2563eb",
+        "background_color_b": "#1d4ed8",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "appointment-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "appointment-text-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "appointment-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Healthcare Systems & Services consulting",
+                    "size": "h2",
+                    "typography_font_weight": "700",
+                    "color": "#ffffff",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "30"
+                    }
+                  }
+                },
+                {
+                  "id": "appointment-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "We provide comprehensive healthcare consulting services to help you maintain optimal health and well-being. Our expert medical team is here to assist you with all your healthcare needs.",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "text_color": "rgba(255, 255, 255, 0.9)",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "40"
+                    }
+                  }
+                },
+                {
+                  "id": "download-button",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Download Brochure",
+                    "selected_icon": {
+                      "value": "fas fa-download",
+                      "library": "fa-solid"
+                    },
+                    "button_type": "outline",
+                    "text_color": "#ffffff",
+                    "border_color": "#ffffff",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "typography_font_weight": "600",
+                    "button_text_padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "32",
+                      "bottom": "16",
+                      "left": "32"
+                    },
+                    "hover_color": "#2563eb",
+                    "button_background_hover_color": "#ffffff"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "appointment-form-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "appointment-form-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Book Appointment",
+                    "size": "h3",
+                    "align": "center",
+                    "typography_font_weight": "600",
+                    "color": "#ffffff",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "30"
+                    }
+                  }
+                },
+                {
+                  "id": "appointment-form",
+                  "elType": "widget",
+                  "widgetType": "form",
+                  "settings": {
+                    "form_fields": [
+                      {
+                        "custom_id": "specialty",
+                        "field_type": "select",
+                        "field_label": "Select Medical Specialties",
+                        "field_options": "Critical Care\nInternal Medicine\nDental\nEmergency\nDermatology\nFamily Medicine",
+                        "width": "33"
+                      },
+                      {
+                        "custom_id": "doctor",
+                        "field_type": "select",
+                        "field_label": "Select Doctor",
+                        "field_options": "Dr. Morgan Smith\nDr. Roy Coleman\nDr. Lyla Miss\nDr. Lake Yinus",
+                        "width": "33"
+                      },
+                      {
+                        "custom_id": "date",
+                        "field_type": "date",
+                        "field_label": "Date",
+                        "width": "33"
+                      },
+                      {
+                        "custom_id": "name",
+                        "field_type": "text",
+                        "field_label": "Name",
+                        "width": "25"
+                      },
+                      {
+                        "custom_id": "phone",
+                        "field_type": "tel",
+                        "field_label": "Telephone",
+                        "width": "25"
+                      },
+                      {
+                        "custom_id": "email",
+                        "field_type": "email",
+                        "field_label": "Email",
+                        "width": "25"
+                      },
+                      {
+                        "custom_id": "time",
+                        "field_type": "time",
+                        "field_label": "Time",
+                        "width": "25"
+                      },
+                      {
+                        "custom_id": "message",
+                        "field_type": "textarea",
+                        "field_label": "Message",
+                        "width": "100"
+                      }
+                    ],
+                    "submit_button_text": "Make Appointment",
+                    "button_size": "sm",
+                    "button_background_color": "#ffffff",
+                    "button_text_color": "#2563eb",
+                    "button_border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stats-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f8fafc",
+        "background_color_b": "#e2e8f0",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "60",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "stats-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_gap": {
+              "unit": "px",
+              "size": 40
+            }
+          },
+          "elements": [
+            {
+              "id": "stat-patients",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 9980,
+                "suffix": "+",
+                "duration": 2000,
+                "thousand_separator": ",",
+                "title": "Happy Patients",
+                "number_color": "#2563eb",
+                "title_color": "#64748b",
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "stat-doctors",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 75,
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Expert Doctors",
+                "number_color": "#2563eb",
+                "title_color": "#64748b",
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "stat-departments",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 540,
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Health Departments",
+                "number_color": "#2563eb",
+                "title_color": "#64748b",
+                "typography_font_weight": "700"
+              }
+            },
+            {
+              "id": "stat-branches",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 2350,
+                "suffix": "+",
+                "duration": 2000,
+                "title": "Total Branches",
+                "number_color": "#2563eb",
+                "title_color": "#64748b",
+                "typography_font_weight": "700"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doctors-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f0f9ff",
+        "background_color_b": "#dbeafe",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "doctors-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "doctors-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "doctors-divider",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "style": "line_text",
+                    "text": "Our Team",
+                    "align": "center",
+                    "text_color": "#2563eb",
+                    "typography_font_weight": "600"
+                  }
+                },
+                {
+                  "id": "doctors-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Dedicated Doctors Team",
+                    "size": "h2",
+                    "align": "center",
+                    "typography_font_weight": "700",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "doctors-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Meet our experienced medical professionals who are dedicated to providing exceptional healthcare services with compassion and expertise.",
+                    "align": "center",
+                    "text_color": "#64748b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "60"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "doctors-grid",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 30
+                }
+              },
+              "elements": [
+                {
+                  "id": "doctor-1",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop"
+                    },
+                    "title_text": "Dr. Morgan Smith",
+                    "description_text": "Dermatology",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#2563eb",
+                    "description_typography_font_weight": "500",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "doctor-2",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/6749778/pexels-photo-6749778.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop"
+                    },
+                    "title_text": "Dr. Roy Coleman",
+                    "description_text": "Cardiology",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#2563eb",
+                    "description_typography_font_weight": "500",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "doctor-3",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop"
+                    },
+                    "title_text": "Dr. Lyla Miss",
+                    "description_text": "Emergency Medicine",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#2563eb",
+                    "description_typography_font_weight": "500",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "doctor-4",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400&h=500&fit=crop"
+                    },
+                    "title_text": "Dr. Lake Yinus",
+                    "description_text": "Internal Medicine",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#2563eb",
+                    "description_typography_font_weight": "500",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testimonial-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "testimonial-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "testimonial-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "testimonial-divider",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "style": "line_text",
+                    "text": "Our Testimonial",
+                    "align": "center",
+                    "text_color": "#2563eb",
+                    "typography_font_weight": "600"
+                  }
+                },
+                {
+                  "id": "testimonial-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Customers & Clients",
+                    "size": "h2",
+                    "align": "center",
+                    "typography_font_weight": "700",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "60"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "testimonial-content",
+              "elType": "widget",
+              "widgetType": "testimonial",
+              "settings": {
+                "testimonial_content": "The medical care I received was exceptional. The doctors were professional, caring, and took the time to explain everything clearly. I felt confident in their expertise and would highly recommend their services.",
+                "testimonial_name": "Dr. Diana",
+                "testimonial_job": "Diagnostic Radiology",
+                "testimonial_image": {
+                  "url": "https://images.pexels.com/photos/5327921/pexels-photo-5327921.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
+                },
+                "testimonial_image_position": "aside",
+                "testimonial_alignment": "center",
+                "name_color": "#1e293b",
+                "job_color": "#2563eb",
+                "content_color": "#64748b"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#f8fafc",
+        "background_color_b": "#e2e8f0",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "process-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed"
+          },
+          "elements": [
+            {
+              "id": "process-header",
+              "elType": "column",
+              "settings": {
+                "_column_size": 100
+              },
+              "elements": [
+                {
+                  "id": "process-divider",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "style": "line_text",
+                    "text": "How it works",
+                    "align": "center",
+                    "text_color": "#2563eb",
+                    "typography_font_weight": "600"
+                  }
+                },
+                {
+                  "id": "process-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "How it helps you make Appointment?",
+                    "size": "h2",
+                    "align": "center",
+                    "typography_font_weight": "700",
+                    "color": "#1e293b",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "60"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "process-steps",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 40
+                }
+              },
+              "elements": [
+                {
+                  "id": "step-1",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+                    },
+                    "title_text": "Make Appointment",
+                    "description_text": "Schedule your appointment online or call our office",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#64748b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "step-2",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+                    },
+                    "title_text": "Select Expert Doctor",
+                    "description_text": "Choose from our team of qualified specialists",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#64748b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "step-3",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4173239/pexels-photo-4173239.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+                    },
+                    "title_text": "Get Consultation",
+                    "description_text": "Receive professional medical consultation and care",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#64748b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                },
+                {
+                  "id": "step-4",
+                  "elType": "widget",
+                  "widgetType": "image-box",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=300&h=400&fit=crop"
+                    },
+                    "title_text": "Get Cure & Relief",
+                    "description_text": "Receive effective treatment and ongoing care",
+                    "title_size": "h4",
+                    "position": "below",
+                    "title_color": "#1e293b",
+                    "description_color": "#64748b",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "hover_animation": "grow"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#1e40af",
+        "background_color_b": "#1e3a8a",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "cta-container",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_gap": {
+              "unit": "px",
+              "size": 60
+            }
+          },
+          "elements": [
+            {
+              "id": "cta-visual-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50
+              },
+              "elements": [
+                {
+                  "id": "cta-doctor-image",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?auto=compress&cs=tinysrgb&w=500&h=600&fit=crop"
+                    },
+                    "image_size": "custom",
+                    "image_custom_dimension": {
+                      "width": "400",
+                      "height": "500"
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "box_shadow_box_shadow_type": "yes",
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 20,
+                      "blur": 40,
+                      "spread": 0,
+                      "color": "rgba(0, 0, 0, 0.3)"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cta-text-column",
+              "elType": "column",
+              "settings": {
+                "_column_size": 50,
+                "content_position": "middle"
+              },
+              "elements": [
+                {
+                  "id": "cta-title",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Looking for professional & trusted medical healthcare?",
+                    "size": "h2",
+                    "typography_font_weight": "700",
+                    "color": "#ffffff",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "20"
+                    }
+                  }
+                },
+                {
+                  "id": "cta-subtitle",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Don't hesitate to contact us.",
+                    "size": "h4",
+                    "typography_font_weight": "500",
+                    "color": "rgba(255, 255, 255, 0.9)",
+                    "_margin": {
+                      "unit": "px",
+                      "bottom": "40"
+                    }
+                  }
+                },
+                {
+                  "id": "cta-button",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Make Appointment",
+                    "selected_icon": {
+                      "value": "fas fa-calendar-plus",
+                      "library": "fa-solid"
+                    },
+                    "button_type": "primary",
+                    "background_color": "#ffffff",
+                    "text_color": "#2563eb",
+                    "border_radius": {
+                      "unit": "px",
+                      "size": 8
+                    },
+                    "typography_font_weight": "600",
+                    "button_text_padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "32",
+                      "bottom": "16",
+                      "left": "32"
+                    },
+                    "hover_color": "#ffffff",
+                    "button_background_hover_color": "#10b981"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

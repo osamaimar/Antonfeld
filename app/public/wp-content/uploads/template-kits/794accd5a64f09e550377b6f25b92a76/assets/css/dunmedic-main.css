@@ -1,0 +1,653 @@
+/* Dunmedic Medical Template Main Styles */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Medical Color Palette */
+    --dunmedic-primary: #2563eb;
+    --dunmedic-primary-hover: #1d4ed8;
+    --dunmedic-secondary: #f8fafc;
+    --dunmedic-accent: #10b981;
+    --dunmedic-emergency: #dc2626;
+    --dunmedic-text-primary: #1e293b;
+    --dunmedic-text-secondary: #64748b;
+    --dunmedic-text-light: #ffffff;
+    --dunmedic-border: #e2e8f0;
+    --dunmedic-shadow-light: 0 2px 10px rgba(0, 0, 0, 0.1);
+    --dunmedic-shadow-medium: 0 4px 20px rgba(0, 0, 0, 0.15);
+    --dunmedic-shadow-heavy: 0 8px 30px rgba(0, 0, 0, 0.2);
+    
+    /* Spacing */
+    --dunmedic-spacing-xs: 0.5rem;
+    --dunmedic-spacing-sm: 1rem;
+    --dunmedic-spacing-md: 1.5rem;
+    --dunmedic-spacing-lg: 2rem;
+    --dunmedic-spacing-xl: 3rem;
+    --dunmedic-spacing-xxl: 4rem;
+    
+    /* Typography */
+    --dunmedic-font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    
+    /* Border Radius */
+    --dunmedic-radius-sm: 0.375rem;
+    --dunmedic-radius-md: 0.5rem;
+    --dunmedic-radius-lg: 0.75rem;
+    --dunmedic-radius-xl: 1rem;
+    
+    /* Transitions */
+    --dunmedic-transition-fast: 0.15s ease;
+    --dunmedic-transition-normal: 0.3s ease;
+    --dunmedic-transition-slow: 0.5s ease;
+}
+
+body {
+    font-family: var(--dunmedic-font-family);
+    line-height: 1.6;
+    color: var(--dunmedic-text-primary);
+    background-color: #ffffff;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+h1 { font-size: var(--font-size-4xl); }
+h2 { font-size: var(--font-size-3xl); }
+h3 { font-size: var(--font-size-2xl); }
+h4 { font-size: var(--font-size-xl); }
+h5 { font-size: var(--font-size-lg); }
+h6 { font-size: var(--font-size-base); }
+
+p {
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+/* Buttons */
+.dunmedic-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--dunmedic-spacing-sm) var(--dunmedic-spacing-lg);
+    border: none;
+    border-radius: var(--dunmedic-radius-md);
+    font-family: inherit;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all var(--dunmedic-transition-normal);
+    position: relative;
+    overflow: hidden;
+}
+
+.dunmedic-btn-primary {
+    background: var(--dunmedic-primary);
+    color: var(--dunmedic-text-light);
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.25);
+}
+
+.dunmedic-btn-primary:hover {
+    background: var(--dunmedic-primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.35);
+}
+
+.dunmedic-btn-outline {
+    background: transparent;
+    color: var(--dunmedic-text-primary);
+    border: 1px solid var(--dunmedic-border);
+}
+
+.dunmedic-btn-outline:hover {
+    background: var(--dunmedic-text-primary);
+    color: white;
+    border-color: var(--dunmedic-text-primary);
+    transform: translateY(-2px);
+}
+
+.dunmedic-btn-emergency {
+    background: var(--dunmedic-emergency);
+    color: var(--dunmedic-text-light);
+    box-shadow: 0 4px 14px rgba(220, 38, 38, 0.25);
+}
+
+.dunmedic-btn-emergency:hover {
+    background: #b91c1c;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.35);
+}
+
+/* Medical Service Cards */
+.medical-service-card {
+    background: #ffffff;
+    border-radius: var(--dunmedic-radius-lg);
+    padding: var(--dunmedic-spacing-xl);
+    text-align: center;
+    box-shadow: var(--dunmedic-shadow-light);
+    transition: all var(--dunmedic-transition-normal);
+    border: 1px solid var(--dunmedic-border);
+}
+
+.medical-service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--dunmedic-shadow-heavy);
+}
+
+.medical-service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto var(--dunmedic-spacing-lg);
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.medical-service-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-sm);
+    color: var(--dunmedic-text-primary);
+}
+
+.medical-service-description {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-text-secondary);
+    line-height: 1.6;
+}
+
+/* Doctor Profile Cards */
+.doctor-profile-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: var(--dunmedic-radius-lg);
+    padding: var(--dunmedic-spacing-xl);
+    text-align: center;
+    box-shadow: var(--dunmedic-shadow-light);
+    transition: all var(--dunmedic-transition-normal);
+    border: 1px solid var(--dunmedic-border);
+}
+
+.doctor-profile-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--dunmedic-shadow-medium);
+}
+
+.doctor-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto var(--dunmedic-spacing-lg);
+    overflow: hidden;
+    border: 4px solid var(--dunmedic-primary);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
+.doctor-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.doctor-name {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-xs);
+    color: var(--dunmedic-text-primary);
+}
+
+.doctor-specialty {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-primary);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Appointment Form Styles */
+.appointment-form-container {
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: var(--dunmedic-radius-lg);
+    padding: var(--dunmedic-spacing-xl);
+    color: white;
+    box-shadow: var(--dunmedic-shadow-heavy);
+}
+
+.appointment-form-title {
+    font-size: var(--font-size-xl);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-lg);
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: var(--dunmedic-spacing-md);
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: var(--dunmedic-spacing-xs);
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+    width: 100%;
+    padding: var(--dunmedic-spacing-sm);
+    border: none;
+    border-radius: var(--dunmedic-radius-md);
+    font-family: inherit;
+    font-size: var(--font-size-base);
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--dunmedic-text-primary);
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.submit-btn {
+    background: white;
+    color: var(--dunmedic-primary);
+    padding: var(--dunmedic-spacing-sm) var(--dunmedic-spacing-xl);
+    border: none;
+    border-radius: var(--dunmedic-radius-md);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--dunmedic-transition-normal);
+    width: 100%;
+    font-size: var(--font-size-base);
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+}
+
+/* Statistics Section */
+.medical-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--dunmedic-spacing-lg);
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    padding: var(--dunmedic-spacing-xl);
+    border-radius: var(--dunmedic-radius-lg);
+    color: white;
+}
+
+.medical-stat-item {
+    text-align: center;
+}
+
+.medical-stat-number {
+    font-size: var(--font-size-3xl);
+    font-weight: 700;
+    margin-bottom: var(--dunmedic-spacing-xs);
+}
+
+.medical-stat-label {
+    font-size: var(--font-size-sm);
+    opacity: 0.9;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Emergency Contact */
+.emergency-contact {
+    background: linear-gradient(135deg, var(--dunmedic-emergency), #ef4444);
+    color: white;
+    padding: var(--dunmedic-spacing-lg);
+    border-radius: var(--dunmedic-radius-lg);
+    text-align: center;
+    box-shadow: var(--dunmedic-shadow-medium);
+}
+
+.emergency-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.emergency-number {
+    font-size: var(--font-size-2xl);
+    font-weight: 700;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.emergency-description {
+    font-size: var(--font-size-sm);
+    opacity: 0.9;
+}
+
+/* Medical Icons */
+.medical-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 auto var(--dunmedic-spacing-md);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Progress Bars for Medical Stats */
+.medical-progress {
+    background: var(--dunmedic-secondary);
+    border-radius: var(--dunmedic-radius-md);
+    height: 8px;
+    overflow: hidden;
+    margin-bottom: var(--dunmedic-spacing-sm);
+}
+
+.medical-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: var(--dunmedic-radius-md);
+    transition: width 1s ease-out;
+}
+
+/* Testimonial Styles */
+.medical-testimonial {
+    background: #ffffff;
+    border-radius: var(--dunmedic-radius-lg);
+    padding: var(--dunmedic-spacing-xl);
+    box-shadow: var(--dunmedic-shadow-light);
+    border-left: 4px solid var(--dunmedic-primary);
+}
+
+.testimonial-content {
+    font-size: var(--font-size-base);
+    line-height: 1.7;
+    color: var(--dunmedic-text-secondary);
+    margin-bottom: var(--dunmedic-spacing-lg);
+    font-style: italic;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: var(--dunmedic-spacing-md);
+}
+
+.testimonial-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-info h5 {
+    font-weight: 600;
+    color: var(--dunmedic-text-primary);
+    margin-bottom: 2px;
+}
+
+.testimonial-info p {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-primary);
+    margin: 0;
+}
+
+/* Medical Process Steps */
+.medical-process-step {
+    text-align: center;
+    position: relative;
+}
+
+.process-step-number {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--dunmedic-primary), var(--dunmedic-accent));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+    margin: 0 auto var(--dunmedic-spacing-md);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.process-step-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-sm);
+    color: var(--dunmedic-text-primary);
+}
+
+.process-step-description {
+    font-size: var(--font-size-sm);
+    color: var(--dunmedic-text-secondary);
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.medical-header {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-top {
+    background: var(--dunmedic-primary);
+    color: white;
+    padding: var(--dunmedic-spacing-sm) 0;
+    font-size: var(--font-size-sm);
+}
+
+.header-main {
+    padding: var(--dunmedic-spacing-md) 0;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+/* Navigation Styles */
+.medical-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--dunmedic-spacing-lg);
+}
+
+.medical-nav a {
+    color: var(--dunmedic-text-primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--dunmedic-transition-normal);
+}
+
+.medical-nav a:hover {
+    color: var(--dunmedic-primary);
+}
+
+/* Footer Styles */
+.medical-footer {
+    background: var(--dunmedic-text-primary);
+    color: white;
+    padding: var(--dunmedic-spacing-xxl) 0 var(--dunmedic-spacing-lg);
+}
+
+.footer-section {
+    margin-bottom: var(--dunmedic-spacing-xl);
+}
+
+.footer-title {
+    font-size: var(--font-size-lg);
+    font-weight: 600;
+    margin-bottom: var(--dunmedic-spacing-md);
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: var(--dunmedic-spacing-xs);
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color var(--dunmedic-transition-normal);
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: var(--dunmedic-spacing-lg);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .medical-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .medical-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--dunmedic-spacing-md);
+    }
+    
+    .doctor-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .medical-service-icon {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .medical-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    h1 { font-size: var(--font-size-3xl); }
+    h2 { font-size: var(--font-size-2xl); }
+    h3 { font-size: var(--font-size-xl); }
+}
+
+/* Animation Classes */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+}
+
+.fade-in-up.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scale-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: all 0.4s ease-out;
+}
+
+.scale-in.animated {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Medical Badge */
+.medical-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--dunmedic-spacing-xs);
+    background: var(--dunmedic-accent);
+    color: white;
+    padding: var(--dunmedic-spacing-xs) var(--dunmedic-spacing-sm);
+    border-radius: var(--dunmedic-radius-md);
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Medical Alert */
+.medical-alert {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: var(--dunmedic-radius-md);
+    padding: var(--dunmedic-spacing-md);
+    color: #92400e;
+    margin-bottom: var(--dunmedic-spacing-lg);
+}
+
+.medical-alert-icon {
+    color: #f59e0b;
+    margin-right: var(--dunmedic-spacing-sm);
+}
+
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Focus styles for accessibility */
+button:focus,
+input:focus,
+select:focus,
+textarea:focus,
+a:focus {
+    outline: 2px solid var(--dunmedic-primary);
+    outline-offset: 2px;
+}

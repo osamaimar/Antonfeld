@@ -1,0 +1,947 @@
+{
+  "version": "0.4",
+  "title": "What Our Patients Say - Medical Testimonials",
+  "type": "section",
+  "content": [
+    {
+      "id": "testimonials-section",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "gap": "default",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "20",
+          "bottom": "80",
+          "left": "20",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#F9FAFB",
+        "custom_css": ""
+      },
+      "elements": [
+        {
+          "id": "testimonials-column",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": null
+          },
+          "elements": [
+            {
+              "id": "section-heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What Our <span style=\"color: #0EA5E9;\">Patients</span> <span style=\"color: #14B8A6;\">Say</span>",
+                "size": "h2",
+                "align": "center",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "text_color": "#111827",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "section-description",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align: center; font-size: 20px; color: #6B7280; max-width: 768px; margin: 0 auto; line-height: 1.6;\"><span style=\"color: #0EA5E9; font-weight: 600;\">Real stories</span> from <span style=\"color: #14B8A6; font-weight: 600;\">real patients</span> who have experienced the difference that <span style=\"color: #0EA5E9; font-weight: 600;\">compassionate, comprehensive healthcare</span> can make.</p>",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "64",
+                  "left": "0",
+                  "isLinked": false
+                }
+              }
+            },
+            {
+              "id": "testimonials-grid",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "gap": "default",
+                "structure": "30"
+              },
+              "elements": [
+                {
+                  "id": "testimonial-1-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-1-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "Dr. Mitchell has been my family doctor for over 5 years. Her attention to detail and genuine care for her patients is exceptional. She always takes the time to listen and explain everything thoroughly.",
+                        "testimonial_name": "Jennifer Adams",
+                        "testimonial_job": "Age 34 • Preventive Care",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-2-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-2-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "Managing my diabetes has become so much easier with Dr. Mitchell's guidance. She developed a comprehensive treatment plan that fits my lifestyle, and my blood sugar levels have never been better.",
+                        "testimonial_name": "Robert Chen",
+                        "testimonial_job": "Age 45 • Diabetes Management",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-3-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-3-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "Dr. Mitchell made me feel comfortable and supported throughout my pregnancy. Her expertise and compassionate care gave me confidence during this important time in my life.",
+                        "testimonial_name": "Maria Rodriguez",
+                        "testimonial_job": "Age 28 • Women's Health",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "second-row-testimonials",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "boxed",
+                "gap": "default",
+                "structure": "30"
+              },
+              "elements": [
+                {
+                  "id": "testimonial-4-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-4-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "After my heart attack, Dr. Mitchell developed a comprehensive recovery plan that has greatly improved my quality of life. Her ongoing monitoring and adjustments to my treatment have been invaluable.",
+                        "testimonial_name": "William Thompson",
+                        "testimonial_job": "Age 62 • Heart Disease Care",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-5-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-5-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "Dr. Mitchell's holistic approach to healthcare includes mental wellness. She helped me through a difficult period with empathy and practical solutions that really made a difference.",
+                        "testimonial_name": "Emily Watson",
+                        "testimonial_job": "Age 52 • Mental Health Support",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "testimonial-6-column",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 33,
+                    "_inline_size": null,
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "16",
+                      "bottom": "32",
+                      "left": "16",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "testimonial-6-card",
+                      "elType": "widget",
+                      "widgetType": "testimonial",
+                      "settings": {
+                        "testimonial_content": "I appreciate Dr. Mitchell's thorough approach to healthcare. She doesn't just treat symptoms but looks at the whole picture. Her preventive care recommendations have kept me healthier than ever.",
+                        "testimonial_name": "David Park",
+                        "testimonial_job": "Age 38 • General Consultation",
+                        "testimonial_image": {
+                          "url": "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=150"
+                        },
+                        "testimonial_image_position": "aside",
+                        "testimonial_alignment": "left",
+                        "show_rating": "yes",
+                        "testimonial_rating": "5",
+                        "star_style": "star_fontawesome",
+                        "stars_color": "#FCD34D",
+                        "stars_unmarked_color": "#E5E7EB",
+                        "content_typography_typography": "custom",
+                        "content_typography_font_family": "Inter",
+                        "content_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "content_typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "content_typography_font_style": "italic",
+                        "content_color": "#374151",
+                        "name_typography_typography": "custom",
+                        "name_typography_font_family": "Inter",
+                        "name_typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "name_typography_font_weight": "600",
+                        "name_color": "#111827",
+                        "job_typography_typography": "custom",
+                        "job_typography_font_family": "Inter",
+                        "job_typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "job_color": "#6B7280",
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_border": "solid",
+                        "border_width": {
+                          "unit": "px",
+                          "top": "1",
+                          "right": "1",
+                          "bottom": "1",
+                          "left": "1",
+                          "isLinked": true
+                        },
+                        "border_color": "#E5E7EB",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "16",
+                          "right": "16",
+                          "bottom": "16",
+                          "left": "16",
+                          "isLinked": true
+                        },
+                        "padding": {
+                          "unit": "px",
+                          "top": "24",
+                          "right": "24",
+                          "bottom": "24",
+                          "left": "24",
+                          "isLinked": true
+                        },
+                        "box_shadow_box_shadow_type": "yes",
+                        "box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 4,
+                          "blur": 25,
+                          "spread": -5,
+                          "color": "rgba(0,0,0,0.1)"
+                        },
+                        "_hover_animation": "float"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cta-section",
+              "elType": "widget",
+              "widgetType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#E5E7EB",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "16",
+                  "right": "16",
+                  "bottom": "16",
+                  "left": "16",
+                  "isLinked": true
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
+                  "isLinked": true
+                },
+                "margin": {
+                  "unit": "px",
+                  "top": "48",
+                  "right": "auto",
+                  "bottom": "0",
+                  "left": "auto",
+                  "isLinked": false
+                },
+                "max_width": {
+                  "unit": "px",
+                  "size": 896
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 4,
+                  "blur": 25,
+                  "spread": -5,
+                  "color": "rgba(0,0,0,0.1)"
+                }
+              },
+              "elements": [
+                {
+                  "id": "cta-heading",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Join Our <span style=\"color: #0EA5E9;\">Family</span> of <span style=\"color: #14B8A6;\">Satisfied Patients</span>",
+                    "size": "h3",
+                    "align": "center",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "typography_font_weight": "700",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.3
+                    },
+                    "text_color": "#111827",
+                    "margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "16",
+                      "left": "0",
+                      "isLinked": false
+                    }
+                  }
+                },
+                {
+                  "id": "cta-description",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"text-align: center; color: #6B7280; margin-bottom: 24px; line-height: 1.6;\">Experience the difference that <span style=\"color: #0EA5E9; font-weight: 600;\">personalized, compassionate healthcare</span> can make. <span style=\"color: #14B8A6; font-weight: 600;\">Schedule your consultation today</span> and take the first step towards <span style=\"color: #0EA5E9; font-weight: 600;\">better health</span>.</p>",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    }
+                  }
+                },
+                {
+                  "id": "cta-buttons",
+                  "elType": "section",
+                  "isInner": true,
+                  "settings": {
+                    "layout": "boxed",
+                    "gap": "default",
+                    "structure": "20"
+                  },
+                  "elements": [
+                    {
+                      "id": "cta-button-1-column",
+                      "elType": "column",
+                      "isInner": true,
+                      "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "content_position": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "cta-button-1",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Schedule Consultation",
+                            "align": "center",
+                            "size": "md",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_weight": "700",
+                            "button_background_color": "#0EA5E9",
+                            "button_text_color": "#FFFFFF",
+                            "background_hover_color": "#0284C7",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "8",
+                              "right": "8",
+                              "bottom": "8",
+                              "left": "8",
+                              "isLinked": true
+                            },
+                            "button_padding": {
+                              "unit": "px",
+                              "top": "12",
+                              "right": "32",
+                              "bottom": "12",
+                              "left": "32",
+                              "isLinked": false
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "cta-button-2-column",
+                      "elType": "column",
+                      "isInner": true,
+                      "settings": {
+                        "_column_size": 50,
+                        "_inline_size": null,
+                        "content_position": "center"
+                      },
+                      "elements": [
+                        {
+                          "id": "cta-button-2",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Learn More About Our Services",
+                            "align": "center",
+                            "size": "md",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_weight": "700",
+                            "button_background_color": "transparent",
+                            "button_text_color": "#0EA5E9",
+                            "border_border": "solid",
+                            "border_width": {
+                              "unit": "px",
+                              "top": "2",
+                              "right": "2",
+                              "bottom": "2",
+                              "left": "2",
+                              "isLinked": true
+                            },
+                            "border_color": "#0EA5E9",
+                            "border_hover_color": "#0284C7",
+                            "hover_color": "#0284C7",
+                            "background_hover_color": "#EFF6FF",
+                            "border_radius": {
+                              "unit": "px",
+                              "top": "8",
+                              "right": "8",
+                              "bottom": "8",
+                              "left": "8",
+                              "isLinked": true
+                            },
+                            "button_padding": {
+                              "unit": "px",
+                              "top": "12",
+                              "right": "32",
+                              "bottom": "12",
+                              "left": "32",
+                              "isLinked": false
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+/* Immediate Care Card Custom Styles */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* Elementor Section Styling */
+.elementor-section.immediate-care-section {
+    text-align: center;
+}
+
+/* Immediate Care Card Section */
+.elementor-section.immediate-care-card {
+    background: #0ea5e9 !important;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* Card Title Styling */
+.elementor-widget-heading .elementor-heading-title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    margin-bottom: 16px !important;
+    color: #ffffff !important;
+    line-height: 1.2 !important;
+    text-align: center !important;
+}
+
+.elementor-widget-heading .elementor-heading-title .highlight {
+    color: #ccfbf1 !important;
+}
+
+/* Card Description Styling */
+.elementor-widget-text-editor .elementor-widget-container {
+    color: #e0f2fe !important;
+    margin-bottom: 24px !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+
+.elementor-widget-text-editor .elementor-widget-container .highlight {
+    color: #ffffff !important;
+    font-weight: 600 !important;
+}
+
+.elementor-widget-text-editor .elementor-widget-container .bold {
+    color: #ccfbf1 !important;
+    font-weight: 700 !important;
+}
+
+/* Card Button Styling */
+.elementor-widget-button .elementor-button {
+    background: #ffffff !important;
+    color: #0ea5e9 !important;
+    padding: 12px 32px !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    border: none !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 16px !important;
+    display: inline-block !important;
+    text-decoration: none !important;
+    margin: 0 auto !important;
+}
+
+.elementor-widget-button .elementor-button:hover {
+    background: #f0f9ff !important;
+    color: #0ea5e9 !important;
+    text-decoration: none !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.elementor-widget-button .elementor-button:focus {
+    outline: 2px solid #0ea5e9 !important;
+    outline-offset: 2px !important;
+}
+
+/* Legacy Support for Shortcode */
+.immediate-care-card-container {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.immediate-care-card {
+    background: #0ea5e9;
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.immediate-care-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #ffffff;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.immediate-care-title .highlight {
+    color: #ccfbf1;
+}
+
+.immediate-care-description {
+    color: #e0f2fe;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.immediate-care-description .highlight {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.immediate-care-description .bold {
+    color: #ccfbf1;
+    font-weight: 700;
+}
+
+.immediate-care-button {
+    background: #ffffff;
+    color: #0ea5e9;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.immediate-care-button:hover {
+    background: #f0f9ff;
+    color: #0ea5e9;
+    text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.immediate-care-button:focus {
+    outline: 2px solid #0ea5e9;
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .immediate-care-card {
+        padding: 24px;
+        margin: 0 16px;
+    }
+    
+    .immediate-care-title {
+        font-size: 20px;
+    }
+    
+    .immediate-care-description {
+        font-size: 14px;
+    }
+    
+    .immediate-care-button {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .immediate-care-card {
+        padding: 20px;
+        margin: 0 8px;
+    }
+    
+    .immediate-care-title {
+        font-size: 18px;
+    }
+    
+    .immediate-care-description {
+        font-size: 13px;
+    }
+    
+    .immediate-care-button {
+        padding: 8px 20px;
+        font-size: 13px;
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Elementor Integration Styles */
+.elementor-widget-immediate-care-card .immediate-care-card-container {
+    margin-top: 0;
+}
+
+.elementor-widget-immediate-care-card .immediate-care-card {
+    width: 100%;
+    max-width: none;
+}
+
+/* Hover Effects */
+.immediate-care-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.immediate-care-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 32px 64px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Focus States for Accessibility */
+.immediate-care-button:focus {
+    outline: 2px solid #0ea5e9;
+    outline-offset: 2px;
+}
+
+/* Animation for Button */
+.immediate-care-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.immediate-care-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.immediate-care-button:hover::before {
+    left: 100%;
+}
+
+/* Print Styles */
+@media print {
+    .immediate-care-card {
+        background: #0ea5e9 !important;
+        color: #ffffff !important;
+        box-shadow: none !important;
+    }
+    
+    .immediate-care-button {
+        background: #ffffff !important;
+        color: #0ea5e9 !important;
+        border: 1px solid #0ea5e9 !important;
+    }
+}

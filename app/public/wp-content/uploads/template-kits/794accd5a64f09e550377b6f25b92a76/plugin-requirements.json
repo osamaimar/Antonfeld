@@ -1,0 +1,20 @@
+{
+  "required_plugins": [
+    {
+      "name": "Elementor",
+      "slug": "elementor",
+      "version": "3.0.0",
+      "required": true,
+      "source": "wordpress.org"
+    }
+  ],
+  "recommended_plugins": [
+    {
+      "name": "Elementor Pro",
+      "slug": "elementor-pro",
+      "version": "3.0.0",
+      "required": false,
+      "source": "elementor.com"
+    }
+  ]
+}
